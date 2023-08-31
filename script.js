@@ -10,7 +10,8 @@ function tiempoReal() {
 }
 setInterval(tiempoReal, 1000);
 
-$("#enviar").click(function() {
+$("#enviar").click(function(event) {
+    event.preventDefault();
     $data = $("#task_id").serialize(); 
     $datareal = $data.replace("task=",'')
     
