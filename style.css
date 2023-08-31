@@ -1,0 +1,28 @@
+body {
+    background-image: url('img/background.jpg');
+}
+
+.txt {
+    text-align: center;
+}
+
+form p {
+    color: red;
+    margin: 0px;
+}
+
+.subrayado {
+    text-decoration: line-through;
+}
+
+
+.scrollbar {
+    /* position: initial; */
+    overflow:scroll;
+    height:550px;
+    /* width:750px; */
+    }
+
+.table-wrapper-scroll-y {
+    display: block;
+}
